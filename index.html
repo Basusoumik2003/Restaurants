@@ -22,6 +22,8 @@
         <li><a href="#shop">Shop</a></li>
         <li><a href="#customer">Customer</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="./Auth/signup.html" target="_blank">Sign Up</a></li>
+
     </ul>
  </header>
 
@@ -30,8 +32,10 @@
     <div class="home-text">
         <span>Welcome To Our</span>
         <h1>Healthy Food <br>Collection</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore cupiditate ea doloribus nobis hic unde, harum molestiae fugiat accusantium odit nisi dicta omnis reiciendis animi, exercitationem repellat excepturi cum optio?</p>
+        <p class="quote">Nature offers the best recipes for life.  
+            Eat fresh, eat pure, live longer.</p>
         <a href="#" class="btn">Our Menu</a>
+        <img src="" alt="">
     </div>
 
     <div class="home-img">
@@ -48,7 +52,7 @@
             <div class="box-img">
                 <img src="img/about1.png" alt="">
             </div>
-            <h3>Green Salad</h3>
+            <h3>Green & Egg Salad</h3>
             <h2>$5.99</h2>
         </div>
 
@@ -90,54 +94,54 @@
     <div class="shop-container">
         <div class="shop-box">
             <div class="shop-img">
-                <img src="img/shop1.jpg" alt="">
+                <img src="img/Indian.jpeg" alt="">
             </div>
-            <h3>Testy Food</h3>
+            <h3>Indian Thali</h3>
             <h2>$12.4</h2>
             <i class='bx bx-cart-alt'></i>
         </div>
 
         <div class="shop-box">
             <div class="shop-img">
-                <img src="img/shop2.jpg" alt="">
+                <img src="img/chinis.jpg" alt="">
             </div>
-            <h3>Testy Food</h3>
+            <h3>Chains Food</h3>
             <h2>$12.4</h2>
             <i class='bx bx-cart-alt'></i>
         </div>
 
         <div class="shop-box">
             <div class="shop-img">
-                <img src="img/shop3.jpg" alt="">
+                <img src="img/Itilan.jpg" alt="">
             </div>
-            <h3>Testy Food</h3>
+            <h3>Italian Food</h3>
             <h2>$12.4</h2>
             <i class='bx bx-cart-alt'></i>
         </div>
 
         <div class="shop-box">
             <div class="shop-img">
-                <img src="img/shop4.jpg" alt="">
+                <img src="img/juice.jpg" alt="">
             </div>
-            <h3>Testy Food</h3>
+            <h3>Juice</h3>
             <h2>$12.4</h2>
             <i class='bx bx-cart-alt'></i>
         </div>
 
         <div class="shop-box">
             <div class="shop-img">
-                <img src="img/shop5.jpg" alt="">
+                <img src="img/Sweets.jpeg" alt="">
             </div>
-            <h3>Testy Food</h3>
+            <h3>Sweets</h3>
             <h2>$12.4</h2>
             <i class='bx bx-cart-alt'></i>
         </div>
 
         <div class="shop-box">
             <div class="shop-img">
-                <img src="img/shop6.jpg" alt="">
+                <img src="img/cakes.jpg" alt="">
             </div>
-            <h3>Testy Food</h3>
+            <h3>Cakes</h3>
             <h2>$12.4</h2>
             <i class='bx bx-cart-alt'></i>
         </div>
@@ -204,7 +208,7 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit minima quia eum laboriosam ea corrupti facilis officiis nemo. Praesentium, quas? Natus dolorum blanditiis voluptates harum numquam dolores tenetur corporis corrupti?</p>
             <div class="adress">
                 <i class='bx bxs-map' ><span>Gandhi Knowladge Park, Bhubaneswar</span></i>
-                <i class='bx bxs-phone' >91-6372077857</i>
+                <i class='bx bxs-phone' >91-8093669088</i>
                 <i class='bx bxs-envelope' >contact@foodi.com</i>
             </div>
             <div class="social">
@@ -215,14 +219,13 @@
         </div>
 
         <div class="contact-form">
-            <form action="" >
-                <input type="text" placeholder="Your Name">
-                <input type="email" placeholder="Your Email">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                <input type="button" value="Send" class="btn">
-
+            <form id="contactForm">
+              <input type="text" id="name" placeholder="Your Name" required />
+              <input type="email" id="email" placeholder="Your Email" required />
+              <textarea id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+              <input type="submit" value="Send" class="btn" />
             </form>
-        </div>
+          </div>
     </div>
 </section>
 
@@ -231,6 +234,6 @@
     <p>&#169;soumikAll Rights Reserved.</p>
 </div>
 
-    <script src="main.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>
